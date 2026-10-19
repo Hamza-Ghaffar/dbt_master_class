@@ -1,0 +1,4 @@
+- Prefers MCP servers configured at global (user) scope so they're available across all projects, rather than per-project scope. Confidence: 0.6
+- Prefers data and results presented as markdown tables, grouped by category (e.g., by language or visibility), rather than long prose. Confidence: 0.7
+- Prefers to carry out setup/connection steps manually, asking for step-by-step instructions (e.g., git commands) rather than having the agent run them. Confidence: 0.7
+- Tends to create GitHub repositories as public by default. Confidence: 0.5
