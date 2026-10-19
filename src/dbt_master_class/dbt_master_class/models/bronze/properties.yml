@@ -1,0 +1,23 @@
+version: 2
+
+# This is a properties file for the dbt_master_class project. It defines the properties for the models in the bronze layer. materialized: view
+
+models:
+  - name: bronze_fact_sales
+    config:
+      materialized: view
+  - name: bronze_dim_customer
+    config:
+      materialized: view
+  - name: bronze_dim_product
+    config:
+      materialized: view
+  - name: bronze_dim_store
+    config:
+      materialized: view
+  - name: bronze_dim_date
+    config:
+      materialized: view
+  - name: bronze_fact_returns
+    config:
+      materialized: view

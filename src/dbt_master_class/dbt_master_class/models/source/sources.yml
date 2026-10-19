@@ -1,0 +1,20 @@
+version: 2
+
+sources:
+    - name: source
+      database: dbt_master_class
+      schema: source
+      tables:
+        - name: fact_sales
+          description: "This is the fact_sales table"
+        - name: fact_returns
+          description: "This is the fact_returns table"
+        - name: dim_customer
+          description: "This is the dim_customer table"
+        - name: dim_date
+          description: "This is the dim_date table"
+        - name: dim_product
+          description: "This is the dim_product table" 
+        - name: dim_store
+          description: "This is the dim_store table"
+        
